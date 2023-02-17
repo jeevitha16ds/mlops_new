@@ -7,6 +7,9 @@ on:
       - master
     # paths:
     #   - 'code/*'
+# for manual deployment
+  workflow_dispatch:
+
 
 jobs:
   train:
