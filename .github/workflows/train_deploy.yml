@@ -1,5 +1,6 @@
 # Actions train a model on Azure Machine Learning
-name: aml-train-deploy-workflow
+# Simply a workflow name.
+name: mlops-cicd-workflow
 
 on:
   push:
@@ -7,7 +8,8 @@ on:
       - master
     # paths:
     #   - 'code/*'
-# for manual deployment
+    
+# for manual deployment, this will show up in Github actions for manual trigger
   workflow_dispatch:
 
 
